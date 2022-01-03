@@ -1,0 +1,73 @@
+Object  file uncontended.o at $0000: Z80RMF12
+  Name: uncontended
+  Section data_compiler: 12 bytes
+  Section code_compiler: 854 bytes
+  Section rodata_compiler: 234 bytes
+  Section bss_compiler: 0 bytes
+  Section IM2_VECTOR_PLACEMENT: 326 bytes
+  Section code_user: 165 bytes
+  Section rodata_user: 1 bytes
+  Section smc_user: 0 bytes
+  Section data_user: 0 bytes
+  Section bss_user: 5 bytes
+  Symbols:
+    G A $0000 _tom (section data_compiler) (file uncontended.c:17)
+    G A $0001 _dick (section data_compiler) (file uncontended.c:21)
+    G A $0002 _harry (section data_compiler) (file uncontended.c:25)
+    G A $0003 _eve (section data_compiler) (file uncontended.c:29)
+    G A $0005 _bob (section data_compiler) (file uncontended.c:33)
+    G A $0007 _ava (section data_compiler) (file uncontended.c:37)
+    G A $0008 _pauseTemp (section data_compiler) (file uncontended.c:41)
+    G A $0000 _multiply2numbers (section code_compiler) (file uncontended.c:49)
+    G A $0014 _enable_interupts (section code_compiler) (file uncontended.c:66)
+    G A $0016 _disable_interupts (section code_compiler) (file uncontended.c:74)
+    G A $0018 _ZX0_decompress (section code_compiler) (file uncontended.c:84)
+    G A $002D _key_test (section code_compiler) (file uncontended.c:101)
+    G A $0097 _pauseLoop (section code_compiler) (file uncontended.c:154)
+    G A $00D4 _showScreen1 (section code_compiler) (file uncontended.c:186)
+    G A $0101 _showScreen2 (section code_compiler) (file uncontended.c:213)
+    G A $012E _showScreen3 (section code_compiler) (file uncontended.c:240)
+    G A $015B _showScreen4 (section code_compiler) (file uncontended.c:267)
+    G A $0188 _showScreen5 (section code_compiler) (file uncontended.c:294)
+    G A $01B5 _showScreen6 (section code_compiler) (file uncontended.c:321)
+    G A $01E2 _showScreen7 (section code_compiler) (file uncontended.c:348)
+    G A $020F _main (section code_compiler) (file uncontended.c:375)
+    G A $0000 _IM2_PUSH_POP (section IM2_VECTOR_PLACEMENT) (file im2.asm:26)
+    G A $0023 _SETUP_IM2 (section IM2_VECTOR_PLACEMENT) (file im2.asm:60)
+    G A $002E NOP_OP (section IM2_VECTOR_PLACEMENT) (file im2.asm:71)
+    G A $0034 _bank_switch (section IM2_VECTOR_PLACEMENT) (file im2.asm:86)
+    G A $0044 _IM2_VECTOR (section IM2_VECTOR_PLACEMENT) (file im2.asm:104)
+    G A $0000 _dzx0_turbo (section code_user) (file uncontended.asm:31)
+    G A $0085 _border_Change_IM2 (section code_user) (file uncontended.asm:126)
+    G A $0092 _border_Change_uncontended (section code_user) (file uncontended.asm:139)
+    G A $0096 _VT_Setup (section code_user) (file uncontended.asm:154)
+    G A $0000 _xyzzy2 (section rodata_user) (file uncontended.asm:185)
+    G A $0000 _zx0_source (section bss_user) (file uncontended.asm:201)
+    G A $0002 _zx0_destination (section bss_user) (file uncontended.asm:205)
+    G A $0004 _ada (section bss_user) (file uncontended.asm:210)
+  Externs:
+    U         l_gint
+    U         l_mult
+    U         l_glong
+    U         l_long_ult
+    U         l_inclong
+    U         zx_cls
+    U         printf
+    U         in_key_pressed
+    U         _Variable_in_contended
+    U         _add_two_numbers
+    U         _VT_MUTE
+    U         _VT_SONG
+    U         _VT_LOOP
+    U         _screen1
+    U         _screen2
+    U         _screen3
+    U         _screen4
+    U         _screen5
+    U         _screen6
+    U         _screen7
+    U         _VT_PLAY
+    U         _VT_START
+    U         _VT_INIT
+    U         _UNCOMP_SONG
+    U         _BUFFER_UNCOMP
